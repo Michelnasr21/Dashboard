@@ -1,0 +1,18 @@
+.my-class{
+    background-color:blue !important;
+}
+.emp-card{
+    width:600px;
+    margin:auto;
+    box-shadow: 7px 7px 10px #ddd;
+}
+
+.search-result{
+     background-color:white;
+     color:#000;
+     padding-left:10px;
+     width:180px;
+     position:relative;
+     z-index:99999;
+
+}

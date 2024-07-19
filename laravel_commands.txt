@@ -1,0 +1,28 @@
+// To create new laravel app
+composer create-project laravel/laravel appName
+
+// To Re-install Vendor
+composer install
+
+// to run your laravel app
+php artisan serve
+
+// Design Patern => MVC
+   * Model = DB Table  
+   * View  = HTML + CSS + JS  
+   * Controller = class => Functions 
+
+// To create new model 
+php artisan make:model ModelName
+
+// To Create new Controller
+php artisan make:controller ControllerName
+
+// To Create new migration file
+php artisan make:migration create_employees_table
+
+// To run the migration file
+php artisan migrate
+
+// To install breez package
+composer require laravel/breeze --dev
